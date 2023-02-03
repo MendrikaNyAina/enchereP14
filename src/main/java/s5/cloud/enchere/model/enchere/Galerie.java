@@ -17,7 +17,7 @@ import s5.cloud.enchere.util.FormatPhoto;
 public class Galerie {
      @Id
      private String _id;
-     @Field("auction_id")
+     @Field("auctionId")
      private Integer auctionId;
      private String format;
      @Field("bytes")
